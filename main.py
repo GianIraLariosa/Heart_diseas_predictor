@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
