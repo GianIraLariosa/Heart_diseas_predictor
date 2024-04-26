@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Load the saved model
-model = load_model("random_forest_model (2).h5", compile=False)
+model = load_model("random_forest_model (2).h5")
 
 # Load the dataset
 data = pd.read_csv("heart.csv")
